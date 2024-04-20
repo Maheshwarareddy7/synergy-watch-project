@@ -1,0 +1,32 @@
+.sidebar_component {
+  background-color: #f0f0f0; /* Background color for the sidebar */
+  padding: 20px; /* Adjust padding as needed */
+  height: 100vh;
+  position: fixed;
+  width: 24%;
+}
+
+.container_fluid {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+}
+
+.container_fluid div {
+  margin-bottom: 15px; /* Adjust margin between sidebar items */
+}
+
+.container_fluid div p {
+  margin: 0;
+  padding-left: 10px; /* Add some padding to the left of the text */
+}
+
+.container_fluid div p i {
+  margin-right: 10px; /* Add some space between the icon and text */
+}
+
+.sidebar_content {
+  font-size: 20px;
+}
+.active {
+  color: rgb(5, 118, 56);
+}

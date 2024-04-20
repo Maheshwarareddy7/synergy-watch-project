@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+/* Dark Mode Styles */
+.App.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Dark Mode Styles for Specific Elements */
+.App.dark-mode .App-header {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.App.dark-mode .App-link {
+  color: #00adb5;
+}
+.dark-mode-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.content {
+  margin-top: 50px;
+}
+.moon-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.moon-icon {
+  width: 30px;
+  height: 30px;
+}

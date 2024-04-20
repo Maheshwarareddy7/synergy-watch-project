@@ -1,0 +1,129 @@
+.banner_comonent {
+  margin-top: 20px;
+  height: 40vh;
+  background-image: radial-gradient(
+    circle farthest-corner at -8.9% 51.2%,
+    rgba(255, 124, 0, 1) 0%,
+    rgba(255, 124, 0, 1) 15.9%,
+    rgba(255, 163, 77, 1) 15.9%,
+    rgba(255, 163, 77, 1) 24.4%,
+    rgba(19, 30, 37, 1) 24.5%,
+    rgba(19, 30, 37, 1) 66%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_comonent h3 {
+  text-align: center;
+  color: azure;
+}
+.banner_comonent h1 {
+  background: linear-gradient(90deg, #ff00d0, #0515a1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.input_search {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.input-group {
+  width: 90%;
+}
+
+.input-group-append {
+  width: auto;
+}
+
+.input-group-append button {
+  background-color: #0b7ffbdd;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.input-group-append button:hover {
+  background-color: #0b37a6;
+}
+
+.input-group-text {
+  background-color: #e9ecef;
+  color: #495057;
+  border-color: #ced4da;
+}
+
+.thumbnail_image img {
+  width: 100%;
+  height: auto;
+}
+
+.home_thumbnail_title h6 {
+  margin: 0;
+}
+
+.home_channel_discription {
+  display: flex;
+  align-items: center;
+}
+
+.channel_logo {
+  margin-right: 20px;
+}
+
+.channel_logo img {
+  width: 50px;
+  height: auto;
+}
+
+.date p {
+  height: 0px;
+  font-size: small;
+}
+
+.no-search-results {
+  margin-top: 20px;
+}
+
+.no-search-results p {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.search-icon {
+  width: 300px;
+  height: 30vh;
+}
+
+.font-size {
+  font-size: 30px;
+  color: red;
+}
+
+.cancel-button {
+  background-color: #1da4e2;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-button:hover {
+  background-color: #d41a1a;
+}
+.col-md-12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250%;
+}
+
+.col-md-12 img {
+  max-height: 300px;
+}
